@@ -9,7 +9,7 @@ public class Monedas {
     public Monedas(List<String[]> supported_codes) {
         this.supported_codes = supported_codes;
     }
-// Comentario
+// Comentario 2
     @Override
     public String toString() {
 
