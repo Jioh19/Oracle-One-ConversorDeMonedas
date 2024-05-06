@@ -65,7 +65,7 @@ public class Menu {
                             "Gracias por usar el Alura Conversor");
                     break;
                 default:
-                    System.out.printf("**       %-55s**",
+                    System.out.printf("**       %-55s**\n",
                             "Ingrese un comando válido");
                     printMenu();
                     break;
@@ -76,6 +76,7 @@ public class Menu {
 
         }catch(InputMismatchException e) {
             System.out.println("Error, ingrese un número válido");
+            printMenu();
         }
 
     }

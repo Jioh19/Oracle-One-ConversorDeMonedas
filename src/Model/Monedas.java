@@ -13,7 +13,7 @@ public class Monedas {
     @Override
     public String toString() {
 
-        String result = new String();
+        String result = "";
         for(String[] str : supported_codes) {
             result += String.format("**%10s: %-50s**\n", str[0], str[1]);
          //           str[0] + ", "+ str[1]+ "\n";
